@@ -4,11 +4,11 @@
 import PackageDescription
 
 let package = Package(
-    name: "Apollo",
+    name: "ApolloLegacy",
     products: [
     .library(
-      name: "Apollo",
-      targets: ["Apollo"]),
+      name: "ApolloLegacy",
+      targets: ["ApolloLegacy"]),
 //    .library(
 //      name: "ApolloCodegenLib",
 //      targets: ["ApolloCodegenLib"]),
@@ -29,7 +29,7 @@ let package = Package(
     ],
     targets: [
     .target(
-      name: "Apollo",
+      name: "ApolloLegacy",
       dependencies: []),
 //    .target(
 //      name: "ApolloCodegenLib",
